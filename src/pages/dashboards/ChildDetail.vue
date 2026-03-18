@@ -1,8 +1,8 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
 import { PhArrowLeft, PhChartPolar, PhGauge, PhCalendarBlank } from '@phosphor-icons/vue'
-import Button from '../../../components/ui/Button.vue'
-import RadarChart from '../../../components/charts/RadarChart.vue'
+import Button from '../../components/ui/Button.vue'
+import RadarChart from '../../components/charts/RadarChart.vue'
 
 const route = useRoute()
 const router = useRouter()

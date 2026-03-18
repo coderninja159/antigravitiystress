@@ -2,8 +2,8 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useStressStore } from '../../../stores/stress'
-import Button from '../../../components/ui/Button.vue'
+import { useStressStore } from '../../stores/stress'
+import Button from '../../components/ui/Button.vue'
 import { PhArrowCounterClockwise, PhHouseLine, PhWarningCircle, PhCheckCircle, PhInfo } from '@phosphor-icons/vue'
 import gsap from 'gsap'
 

@@ -2,8 +2,8 @@
 import { computed, ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useUserStore } from '../../../stores/user'
-import Button from '../../../components/ui/Button.vue'
+import { useUserStore } from '../../stores/user'
+import Button from '../../components/ui/Button.vue'
 import { PhFire, PhLightbulb, PhTrash, PhArrowRight, PhClockCounterClockwise, PhChartPolar, PhGauge } from '@phosphor-icons/vue'
 
 const router = useRouter()

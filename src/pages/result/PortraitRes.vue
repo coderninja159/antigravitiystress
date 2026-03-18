@@ -2,9 +2,9 @@
 import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { usePortraitStore } from '../../../stores/portrait'
-import RadarChart from '../../../components/charts/RadarChart.vue'
-import Button from '../../../components/ui/Button.vue'
+import { usePortraitStore } from '../../stores/portrait'
+import RadarChart from '../../components/charts/RadarChart.vue'
+import Button from '../../components/ui/Button.vue'
 import { PhArrowCounterClockwise, PhHouseLine, PhStar, PhTrendUp } from '@phosphor-icons/vue'
 import gsap from 'gsap'
 

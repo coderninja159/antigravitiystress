@@ -1,9 +1,9 @@
 <script setup>
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { useUserStore } from '../../../stores/user'
+import { useUserStore } from '../../stores/user'
 import { useI18n } from 'vue-i18n'
-import Button from '../../../components/ui/Button.vue'
+import Button from '../../components/ui/Button.vue'
 import { PhUsers, PhArrowRight, PhChartPolar, PhGauge, PhWarningCircle } from '@phosphor-icons/vue'
 
 const router = useRouter()

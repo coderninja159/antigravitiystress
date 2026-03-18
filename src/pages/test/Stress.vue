@@ -2,9 +2,9 @@
 import { ref, computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-import { useStressStore } from '../../../stores/stress'
+import { useStressStore } from '../../stores/stress'
 import gsap from 'gsap'
-import Button from '../../../components/ui/Button.vue'
+import Button from '../../components/ui/Button.vue'
 import { PhArrowLeft, PhArrowRight, PhCheckCircle } from '@phosphor-icons/vue'
 
 const router = useRouter()

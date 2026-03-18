@@ -3,8 +3,8 @@ import { computed } from 'vue'
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useUserStore } from '../../stores/user'
-import LanguageSwitcher from './LanguageSwitcher.vue'
-import ThemeToggle from './ThemeToggle.vue'
+import LanguageSwitcher from '../ui/LanguageSwitcher.vue'
+import ThemeToggle from '../ui/ThemeToggle.vue'
 import { PhSignOut, PhUserCircle } from '@phosphor-icons/vue'
 
 const router = useRouter()
