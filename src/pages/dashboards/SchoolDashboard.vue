@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { useUserStore } from '../../../stores/user'
+import { useUserStore } from '../../stores/user'
 import { PhUsersThree, PhDownloadSimple, PhEye, PhShieldCheck } from '@phosphor-icons/vue'
 
 const router = useRouter()
